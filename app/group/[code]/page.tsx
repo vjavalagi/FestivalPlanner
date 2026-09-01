@@ -86,6 +86,9 @@ export default async function GroupPage({
         <p className="text-xs text-zinc-600">
           We take a one-time snapshot of your top &amp; followed artists — no tokens are
           stored. Reconnect any time to refresh. Use the same name to update your data.
+          Sharing this browser with a friend who already connected? Log out at{" "}
+          <span className="text-zinc-500">open.spotify.com</span> first (or use a
+          private/incognito window) so we grab your account, not theirs.
         </p>
       </section>
 
