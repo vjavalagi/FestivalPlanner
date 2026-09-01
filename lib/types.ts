@@ -9,6 +9,7 @@ export interface SpotifyArtistRef {
 }
 
 export interface MemberSnapshot {
+  spotifyId: string;
   spotifyDisplayName: string;
   syncedAt: string;
   topArtists: Record<TermKey, SpotifyArtistRef[]>;

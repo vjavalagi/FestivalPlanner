@@ -210,6 +210,7 @@ export async function buildSnapshot(token: string): Promise<MemberSnapshot> {
       optional(fetchRecentArtists(token)),
     ]);
   return {
+    spotifyId: me.id,
     spotifyDisplayName: me.display_name || me.id,
     syncedAt: new Date().toISOString(),
     topArtists: {
